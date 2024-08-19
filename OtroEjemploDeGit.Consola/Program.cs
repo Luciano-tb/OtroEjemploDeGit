@@ -8,7 +8,7 @@
             Console.Write("Ingrese un número: ");
             var numeroIngresado = int.Parse(Console.ReadLine());
             Console.Write("Ingrese multiplicador");
-            var multiplicador = int.Parse(Console.ReadLine();
+            var multiplicador = int.Parse(Console.ReadLine());
             var multiplo = Multiplicar(numeroIngresado, multiplicador);
             Console.WriteLine($"{numeroIngresado} multiplicado por {multiplicador} es {multiplicador} es {multiplo}");
         }
